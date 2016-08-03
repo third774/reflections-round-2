@@ -17,4 +17,8 @@
 
 ## 4. How do the diagrams help you visualize the branch structure?
 
->They make "reachability" easy to see for each branch. It makes it painfully obvious when a commit is created that is unreachable, which is of course dangerous since the commit can be lost if you don't create a new branch as a reference point for those unreachable commits. 
+>They make "reachability" easy to see for each branch. It makes it painfully obvious when a commit is created that is unreachable, which is of course dangerous since the commit can be lost if you don't create a new branch as a reference point for those unreachable commits.
+
+## 5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+> A commit that has two parents, which were the tips of the two branches that were merged. It is represented in the diagram to show the "reachability" of each parent down to the point where they originally diverged.

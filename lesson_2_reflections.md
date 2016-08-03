@@ -15,3 +15,6 @@
 > 
 >Branches would allow you to work on those changes, and be making commits along the way while keeping the changes out of your master branch until they are ready to be merged back in.
 
+## 4. How do the diagrams help you visualize the branch structure?
+
+>They make "reachability" easy to see for each branch. It makes it painfully obvious when a commit is created that is unreachable, which is of course dangerous since the commit can be lost if you don't create a new branch as a reference point for those unreachable commits. 

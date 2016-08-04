@@ -21,4 +21,13 @@
 
 ## 5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-> A commit that has two parents, which were the tips of the two branches that were merged. It is represented in the diagram to show the "reachability" of each parent down to the point where they originally diverged.
+>A commit that has two parents, which were the tips of the two branches that were merged. It is represented in the diagram to show the "reachability" of each parent down to the point where they originally diverged.
+
+## 6. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+>## Pros
+>1. Easier
+>2. Faster
+>
+>## Cons
+>1. Might not always be perfect

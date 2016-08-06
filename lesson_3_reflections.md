@@ -18,7 +18,7 @@
 
 ## 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
->Fill in your answer here
+>You can tell your local branch's relative position to the origin/master branch, and whether or not you're out of sync. This can be helpful to know before attempting a merge, or a push.
 
 ## 5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 

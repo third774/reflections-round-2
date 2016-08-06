@@ -12,7 +12,9 @@
 
 ## 3. Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
->Fill in your answer here
+>* A Branch is a pointer to a commit, and exists within the context of a repository. Branches can be used for new features, experimental changes, refactoring, and other similar uses.
+>* A Clone is a copy of a repository. You might create a clone of a repository when you want to take the code, and make changes to it in such a way that make it diverge completely from the original.
+>* A Fork is similar to a clone in that it is also a copy of a repository, however, the point of forking is to explicitly attribute the repository that it was cloned from.
 
 ## 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
